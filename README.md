@@ -7,7 +7,7 @@
 
 - Let us understand the Memento Design Pattern in C# with an example. Please have a look at the following image. As shown in the below image, on the left-hand side, we have an employee with `Id =101, Name =John, Salary = 2Lakhs, Designation = Software Engineer, Address = London`, and many more attributes. Later, we changed some of the properties, i.e., Salary to 3Lakhs and designation to Senior Software Engineer; we also changed some other employee attributes, shown on the right-hand side of the image below. That means we change the object state from State 1 to State 2.
 
-  ![image](https://github.com/jil1710/readmedemo/assets/125335932/5eb3a8be-873c-46e5-b635-dc22eb8c544a)
+  ![image](https://github.com/dotnet-simformsolutions/mememto-design-pattern/blob/master/images/273154636-5eb3a8be-873c-46e5-b635-dc22eb8c544a.png)
 
 - After some time, let’s undo or roll back the employee information to its previous state, i.e., State 1. If this is your requirement, you must use the Memento Design Pattern and roll back the employee information to its previous state.
 
@@ -18,19 +18,19 @@
 
     - **Create Transaction State class that can hold the latest transaction
 
-      ![image](https://github.com/jil1710/readmedemo/assets/125335932/d2dc6b4e-d82a-4dcf-ba30-66efe6cfa370)
+      ![image](https://github.com/dotnet-simformsolutions/mememto-design-pattern/blob/master/images/273155457-d2dc6b4e-d82a-4dcf-ba30-66efe6cfa370.png)
 
     - **Create Bank Account for performing operation such as deposite, withdraw, Undo transaction etc..**
  
-      ![image](https://github.com/jil1710/readmedemo/assets/125335932/478f78a7-a4b6-4ebb-9934-3b0d6de58dff)
+      ![image](https://github.com/dotnet-simformsolutions/mememto-design-pattern/blob/master/images/273156093-478f78a7-a4b6-4ebb-9934-3b0d6de58dff.png)
 
     - **Create Bank History class for managing history of transaction**
  
-      ![image](https://github.com/jil1710/readmedemo/assets/125335932/83dcff38-992f-4b94-8fe6-96e8f0b6103c)
+      ![image](https://github.com/dotnet-simformsolutions/mememto-design-pattern/blob/master/images/273156370-83dcff38-992f-4b94-8fe6-96e8f0b6103c.png)
 
     - **Let's managing history**
 
-      ![image](https://github.com/jil1710/readmedemo/assets/125335932/f292c664-9893-4d2e-9e3f-b34df0e8e62c)
+      ![image](https://github.com/dotnet-simformsolutions/mememto-design-pattern/blob/master/images/273156584-f292c664-9893-4d2e-9e3f-b34df0e8e62c.png)
 
 
 
